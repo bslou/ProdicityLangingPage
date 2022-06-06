@@ -47,7 +47,6 @@ const App = () => {
 
   function WriteToFile(e) {
     e.preventDefault();
-    console.log("Exe " + document.getElementById("email").value);
     if (listOfUsers === null) {
       toast({
         title: 'Email registered.',
